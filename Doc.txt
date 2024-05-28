@@ -1,0 +1,34 @@
+git commit --amend: Permite modificar o commit mais recente.
+git commit --amend --no-edit: Permite adicionar alterações ao commit mais recente sem abrir o editor para modificar a mensagem de commit.
+git checkout -: Volta para a versão anterior existente.
+git clean -f: Remove arquivos não rastreados.
+git restore: Restaura arquivos do índice ou do diretório
+git branch --list = lista as branchs que tem no repositório
+git branch nomeDaBranch = cria uma nova branch
+git checkout nomeDaBranch = vc começa a comitar na branch escolhida
+git checkout -b = cria a nova branch e ja passa para ela
+git switch também faz a troca de ir ou voltar para uma branch
+git switc -c - cria e muda direto para a nova main
+git checkout -f nomedabranch - faz uma alteração limpa deixa de rastrear 
+git push --set-upstream origin nomedabranch = faz com que a branch seja enviada para o git pois ate então a branch só existia localmente
+git branch -d nomedabranch - apaga a Branch e o historico
+git push --delete origin TASK5- apagou no meu servidor porem não apaga localmente
+não da para alterar o nome uma vez que ela subiu para o servidor
+
+issue,milestones,labels
+
+tags
+
+Stash - ele salva as mudanças RASTREAVEIS nas branchs
+
+git revert- para reverter um comitê, caso quebre um commit ou algo do tipo, mas não alteramos o histórico a time line, apenas revertemos o commit que revertemos continua sendo listado, ainda temos o rastreio da mudança
+
+
+git pull -
+git fetch
+
+. Rebase - Squash
+
+
+PESQUISAR:
+GIT BITSECT - BOM PARA PESQUISAR 

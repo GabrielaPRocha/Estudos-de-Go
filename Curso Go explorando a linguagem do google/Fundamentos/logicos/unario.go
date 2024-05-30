@@ -14,3 +14,4 @@ func main() {
 
 // Go faz incrimento apenas postfix
 //é um pos fixado, você não consegue usar algo como x++ == y--
+// Go só tem 5  enquanto C tem 14

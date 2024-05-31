@@ -1,10 +1,9 @@
 package main
 
-import "fmt"
-
 //Go é minimalista, não tem outros laços alem do for
 // não tem While por examplo
-func main() {
+
+/*func main() {
 	i := 1
 	for i <= 10 {
 		fmt.Println(i)
@@ -24,3 +23,4 @@ func main() {
 
 	}
 }
+*/
